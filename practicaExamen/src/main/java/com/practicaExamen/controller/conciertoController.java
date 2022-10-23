@@ -61,12 +61,4 @@ public class conciertoController {
         conciertoService.delete(idConcierto);
         return "redirect:/concierto";
     }
-
-    /*@GetMapping("/editConcierto/{id}")
-    public String editarConcierto(@PathVariable("id") Long idConcierto, Model model){
-        concierto concierto = conciertoService.getConciertoById(idConcierto);
-        List<concierto> listaConcierto = conciertoService.listConcierto();
-        model.addAttribute("concierto", concierto);
-        return "crear";
-    }*/
 }

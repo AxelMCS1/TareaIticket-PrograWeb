@@ -44,8 +44,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     <td th:text="${user.getCosto}"></td>
                     <td th:text="${user.getFecha}"></td>
                     <td th:text="${user.getCapacidad}"></td>
-                    <td th:text="${user.getLugar.getLugar}"></td>
-                    <!-- revisa la clase y el metodo -->              
+                    <td th:text="${user.getLugar.getLugar}"></td>                     
                     <td>
                         <a th:href="@{/delete/{id}(id=${user.getId})}">Eliminar</a>
                     </td>
